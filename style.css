@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1877f2;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 360px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1c1e21;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #165fbe;
+}
+
+.forgot-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+.create-account {
+    background-color: #42b72a;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
